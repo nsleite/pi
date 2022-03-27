@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 import time
 PIN = 5
 
-GPIO.setmode(GPIO.LOW)
+GPIO.setmode(GPIO.BCM)
 GPIO.setup(PIN, GPIO.OUT, initial=GPIO.LOW)
 
 while True:
